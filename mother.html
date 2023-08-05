@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Care</title>
+    <link rel="icon" href="./assets/logo.png">
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="./assets/nav-bar-logo.png" alt="">
+                </a>
+            </div>
+            <div class="search">
+                <input type="text" placeholder="Search...">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <button type="submit">Search</button>
+            </div>
+            <div class="user-icon">
+                <a id="user-login" href="user.html">
+                    <i class="fa-solid fa-user"></i>
+                    <span>Hello, Log In</span>
+                </a>
+            </div>
+            <div class="cart">
+                <a href="cart.html">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span>Cart</span>
+                </a>
+                <div class="cart-amt" id="cart-amt">0</div>
+            </div>
+        </nav>
+    </header>
+    <section class="carousel">
+        <div class="carousel-container">
+            <div class="carousel-slide">
+                <img src="./assets/corousel/image1.jpg" alt="Image 1">
+                <img src="./assets/corousel/image2.jpg" alt="Image 2">
+                <img src="./assets/corousel/image3.jpg" alt="Image 3">
+            </div>
+        </div>
+    </section>
+    <section class="feature" id="feature"></section>
+    <section class="container" id="container"></section>
+    <section id="news-letter">
+        <div class="newstext">
+            <h4>Sign Up For News Letter</h4>
+            <p>Get E-Mail updates about our latest shop and <span>special offers.</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Enter your email address">
+            <button class="normal">Sign Up</button>
+        </div>
+    </section>
+    <footer>
+        <div class="company">
+            <img src="./assets/logo.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address: </strong>Kolkata, West Bengal, India</p>
+            <p><strong>Phone: </strong>+91 xxxxx xxxxx</p>
+            <p><strong>Hours: </strong>10:00 - 18:00 (Monday to Friday)</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/i/flow/login?redirect_after_login=%2F"><i
+                            class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://in.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-element" id="footer-element"></div>
+    </footer>
+    <div class="payment-partner">
+        <h4>Our Payments Partners</h4>
+        <img src="./assets/payment.png" alt="">
+        <p>&copy; 2023 Medical Care Healthy : All Rights Are Reserved</p>
+    </div>
+    <script src="./assets/jsFile/data.js"></script>
+    <script src="./assets/jsFile/mother.js"></script>
+</body>
+
+</html>

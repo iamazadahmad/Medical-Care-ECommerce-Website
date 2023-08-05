@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Care</title>
+    <link rel="icon" href="./assets/logo.png">
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="./assets/nav-bar-logo.png" alt="">
+                </a>
+            </div>
+            <div class="search">
+                <input type="text" placeholder="Search...">
+                <button type="submit">Search</button>
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="user-icon">
+                <a href="user.html">
+                    <i class="fa-solid fa-user"></i>
+                    <span>Hello, Log In</span>
+                </a>
+            </div>
+            <div class="cart">
+                <a href="cart.html">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span>Cart</span>
+                </a>
+                <div class="cart-amt" id="cart-amt">0</div>
+            </div>
+        </nav>
+    </header>
+    <section class="order-area">
+        <h1>Doctor Appointment</h1>
+        <p>Please fill in the required details to schedule your appointment.</p>
+        <form id="appointmentForm">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="doctor">Select a Doctor:</label>
+            <select id="doctor" name="doctor" required>
+                <option value="">Select Doctor</option>
+            </select>
+
+            <label for="date">Select Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="time">Select Time:</label>
+            <input type="time" id="time" name="time" required>
+
+            <input type="submit" value="Schedule Appointment">
+        </form>
+    </section>
+    <footer>
+        <div class="company">
+            <img src="./assets/logo.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address: </strong>Kolkata, West Bengal, India</p>
+            <p><strong>Phone: </strong>+91 xxxxx xxxxx</p>
+            <p><strong>Hours: </strong>10:00 - 18:00 (Monday to Friday)</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/i/flow/login?redirect_after_login=%2F"><i
+                            class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://in.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-element" id="footer-element"></div>
+    </footer>
+    <div class="payment-partner">
+        <h4>Our Payments Partners</h4>
+        <img src="./assets/payment.png" alt="">
+        <p>&copy; 2023 Medical Care Healthy : All Rights Are Reserved</p>
+    </div>
+    <script src="./assets/jsFile/data.js"></script>
+    <script src="./assets/jsFile/appointment.js"></script>
+</body>
+
+</html>
