@@ -45,7 +45,7 @@ let generateBeauty = () => {
         return `<a href="">
         <div class="product-container" id="${x.id}">
             <div class="product-image">
-                <img src="${x.img}" alt="">
+                <img src="${x.img}" alt="image">
             </div>
             <div class="product-name">
                 <h4>${x.name}</h4>
