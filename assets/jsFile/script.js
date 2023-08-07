@@ -66,9 +66,6 @@ let generateCategory = () => {
             <div class="item-image">
                 <img src="${x.img}" alt="">
             </div>
-            <div class="item-name">
-                ${x.name}
-            </div>
         </div>
     </a>`
     }).join(""));
