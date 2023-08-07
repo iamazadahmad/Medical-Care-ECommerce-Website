@@ -576,6 +576,12 @@ input[type="submit"]:hover {
 }
 
 @media (max-width:400px) {
+
+    .footer-element {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
     
     .feature-box .feature-name h3 {
         font-size: 12px;
